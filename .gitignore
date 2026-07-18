@@ -1,0 +1,13 @@
+# === Fichiers de données et de logs Neo4j (À NE JAMAIS ENVOYER) ===
+# Ces dossiers contiennent des fichiers binaires lourds spécifiques à chaque PC
+neo4j/data/*
+neo4j/logs/*
+
+# === Système et Environnement ===
+.DS_Store
+Thumbs.db
+.env
+
+# === Ne pas ignorer le dossier import ===
+# Cela permet de partager le fichier init.cypher avec toute l'équipe
+!neo4j/import/
