@@ -52,7 +52,7 @@ Placez le fichier `init.cypher` que vous avez créé à l'intérieur du dossier 
 docker compose up -d
 ```
 *Note : Lors de ce premier lancement, Docker va créer automatiquement les répertoires `neo4j/data/` et `neo4j/logs/`.*
-
+  
 ### Étape 4 : Vérifier l'état du conteneur
 Pour vous assurer que le serveur a démarré correctement et qu'il n'y a pas d'erreur de mémoire :
 ```bash
