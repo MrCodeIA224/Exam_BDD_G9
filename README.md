@@ -49,14 +49,14 @@ Placez le fichier `init.cypher` que vous avez créé à l'intérieur du dossier 
 ### Étape 3 : Démarrer le serveur Neo4j avec Docker
 À la racine de votre projet (là où se trouve le fichier `docker-compose.yml`), exécutez la commande suivante pour construire et lancer la base de données en arrière-plan :
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 *Note : Lors de ce premier lancement, Docker va créer automatiquement les répertoires `neo4j/data/` et `neo4j/logs/`.*
 
 ### Étape 4 : Vérifier l'état du conteneur
 Pour vous assurer que le serveur a démarré correctement et qu'il n'y a pas d'erreur de mémoire :
 ```bash
-docker-compose ps
+docker compose ps
 ```
 
 ### Étape 5 : Initialiser les données de la base
