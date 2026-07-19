@@ -20,7 +20,7 @@ Contrairement aux bases relationnelles (SQL) qui ralentissent avec l'accumulatio
 Assurez-vous que votre répertoire local respecte scrupuleusement cette arborescence :
 
 ```text
-Mon_Projet_Master/
+EXAM_BDD_G9/
 │
 ├── docker-compose.yml       # Configuration du conteneur Neo4j
 ├── README.md                # Documentation de l'application
@@ -72,18 +72,18 @@ docker compose ps
 
 * **Voir les logs du serveur en temps réel :**
   ```bash
-  docker-compose logs -f neo4j_serveur
+  docker compose logs -f neo4j_serveur
   ```
 * **Arrêter temporairement la plateforme (sans perdre les données) :**
   ```bash
-  docker-compose stop
+  docker compose stop
   ```
 * **Redémarrer la plateforme :**
   ```bash
-  docker-compose start
+  docker compose start
   ```
 * **Supprimer complètement le conteneur (les données restent préservées dans `./neo4j/data`) :**
   ```bash
-  docker-compose down
+  docker compose down
   ```
 
