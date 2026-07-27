@@ -29,6 +29,13 @@ EXAM_BDD_G9/
     ├── import/              # Contient vos scripts d'initialisation (ex: init.cypher)
     ├── data/                # [Généré par Docker] Fichiers binaires neostore de la base
     └── logs/                # [Généré par Docker] Journaux d'erreurs du serveur
+├── cypher/
+│   ├── 01_schema_contraintes.cypher   # Contraintes d'unicité, existence et index
+│   ├── 02_import_donnees.cypher       # Import des données via LOAD CSV
+│   └── 03_requetes_critiques.cypher   # Requêtes d'analyse (Partie 4 du rapport)
+├── app/
+│   └── connexion.py              # Client Python (driver officiel neo4j)
+├── requirements.txt              # exigences python
 ```
 
 ---
@@ -65,6 +72,32 @@ docker compose ps
    * **Utilisateur :** `neo4j`
    * **Mot de passe :** `M1_IA_BDD_G9`
 3. Ouvrez le fichier `init.cypher`, copiez l'intégralité de son contenu, collez-le dans la console Neo4j (la barre de saisie tout en haut de l'écran) et cliquez sur le bouton bleu **Play/Exécuter**. Votre graphe est maintenant entièrement généré [4.2].
+
+### AUTRES ETAPES AUSSI
+
+1. **Initialiser le schéma** (contraintes + index) :
+   Copier le contenu de `cypher/01_schema_contraintes.cypher` dans Neo4j Browser, ou :
+   ```bash
+   cat cypher/01_schema_contraintes.cypher | docker exec -i neo4j-reclamations cypher-shell -u neo4j -p reclamations_2026
+   ```
+
+2. **Importer les données** :
+   Placer les fichiers CSV (`clients.csv`, `produits.csv`, `agents.csv`, `categories.csv`, `canaux.csv`, `causes.csv`, `reclamations.csv`) dans le dossier `./import` (monté automatiquement par docker-compose), puis exécuter :
+   ```bash
+   cat cypher/02_import_donnees.cypher | docker exec -i neo4j-reclamations cypher-shell -u neo4j -p reclamations_2026
+   ```
+
+3. **Exécuter les requêtes critiques** :
+   Ouvrir `cypher/03_requetes_critiques.cypher` dans Neo4j Browser pour explorer les résultats, ou lancer le client Python :
+   ```bash
+   pip install -r requirements.txt
+   python app/connexion.py
+   ```
+
+## Plugins activés
+
+- **APOC** : procédures étendues (import avancé, manipulation de graphe).
+- **Graph Data Science (GDS)** : algorithmes de graphe (similarité, PageRank, détection de communautés) — utile pour enrichir la relation `SIMILAIRE_A` entre réclamations via des embeddings ou du clustering.
 
 ---
 
