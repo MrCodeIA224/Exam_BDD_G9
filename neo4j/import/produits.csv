@@ -1,0 +1,9 @@
+id,nom,categorieProduit
+PR001,Forfait Internet Fibre,Telecom
+PR002,Forfait Mobile 4G/5G,Telecom
+PR003,Compte Courant Digital,Banque
+PR004,Carte Bancaire Premium,Banque
+PR005,Livraison Express,E-commerce
+PR006,Abonnement Streaming,Telecom
+PR007,Pret Personnel,Banque
+PR008,Carte de Fidelite,Supermarche

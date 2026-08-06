@@ -1,0 +1,61 @@
+id,dateCreation,description,statut,priorite,sentimentScore,tempsResolutionHeures,clientId,produitId,agentId,categorie,canal,cause,confianceCause
+REC2026-0001,2026-06-26,Impossible de joindre le service client concernant Compte Courant Digital.,resolue,moyenne,-0.11,81.1,CL008,PR003,AG04,Service client,App mobile,Procedure de resiliation floue,0.9
+REC2026-0002,2026-05-26,Aucune reponse a ma reclamation precedente sur Abonnement Streaming.,rejetee,haute,-0.72,,CL002,PR006,AG04,Livraison,Email,Rupture de stock non signalee,0.79
+REC2026-0003,2026-03-09,Impossible de joindre le service client concernant Livraison Express.,rejetee,critique,0.17,,CL005,PR005,AG02,Panne technique,Agence,Delai de livraison transporteur,0.76
+REC2026-0004,2026-06-10,Aucune reponse a ma reclamation precedente sur Carte de Fidelite.,en_cours,critique,-0.22,,CL005,PR008,AG01,Facturation,Email,Rupture de stock non signalee,0.75
+REC2026-0005,2026-05-18,Aucune reponse a ma reclamation precedente sur Livraison Express.,escaladee,haute,-0.85,,CL017,PR005,AG05,Facturation,Email,Procedure de resiliation floue,0.77
+REC2026-0006,2026-06-10,"Facturation en double sur Livraison Express, montant preleve deux fois ce mois-ci.",escaladee,moyenne,-0.8,,CL001,PR005,AG05,Panne technique,Agence,Erreur de synchronisation facturation v2.3,0.9
+REC2026-0007,2026-07-26,"Panne recurrente sur Abonnement Streaming depuis plusieurs jours, aucune amelioration.",escaladee,moyenne,-0.92,,CL020,PR006,AG04,Facturation,Email,Erreur agence - saisie manuelle,0.94
+REC2026-0008,2026-06-18,Impossible de joindre le service client concernant Carte de Fidelite.,resolue,moyenne,-0.66,83.9,CL003,PR008,AG01,Résiliation,Telephone,Rupture de stock non signalee,0.77
+REC2026-0009,2026-06-16,Impossible de joindre le service client concernant Carte Bancaire Premium.,escaladee,critique,0.17,,CL018,PR004,AG06,Livraison,Chatbot,Procedure de resiliation floue,0.78
+REC2026-0010,2026-02-28,"Panne recurrente sur Forfait Mobile 4G/5G depuis plusieurs jours, aucune amelioration.",resolue,moyenne,-0.99,68.2,CL008,PR002,AG03,Facturation,Agence,Delai de livraison transporteur,0.62
+REC2026-0011,2026-06-21,Aucune reponse a ma reclamation precedente sur Abonnement Streaming.,resolue,moyenne,-0.3,69.7,CL002,PR006,AG01,Résiliation,Telephone,Erreur agence - saisie manuelle,0.94
+REC2026-0012,2026-06-18,"Panne recurrente sur Carte de Fidelite depuis plusieurs jours, aucune amelioration.",resolue,haute,-0.45,45.4,CL008,PR008,AG04,Panne technique,Email,Erreur de synchronisation facturation v2.3,0.88
+REC2026-0013,2026-02-19,Aucune reponse a ma reclamation precedente sur Pret Personnel.,en_cours,critique,-0.82,,CL002,PR007,AG06,Livraison,Email,Rupture de stock non signalee,0.67
+REC2026-0014,2026-06-16,Livraison de Forfait Mobile 4G/5G en retard de plus d'une semaine sans notification.,resolue,basse,0.26,89.0,CL008,PR002,AG04,Résiliation,Email,Erreur de synchronisation facturation v2.3,0.93
+REC2026-0015,2026-02-12,Aucune reponse a ma reclamation precedente sur Carte de Fidelite.,resolue,basse,0.28,26.2,CL014,PR008,AG04,Panne technique,Chatbot,Erreur de synchronisation facturation v2.3,0.91
+REC2026-0016,2026-02-18,"Facturation en double sur Pret Personnel, montant preleve deux fois ce mois-ci.",escaladee,moyenne,0.26,,CL010,PR007,AG06,Résiliation,Chatbot,Rupture de stock non signalee,0.83
+REC2026-0017,2026-05-16,Livraison de Forfait Internet Fibre en retard de plus d'une semaine sans notification.,en_cours,basse,0.25,,CL011,PR001,AG01,Résiliation,Chatbot,Delai de livraison transporteur,0.63
+REC2026-0018,2026-05-26,"Erreur sur mon releve concernant Forfait Mobile 4G/5G, montant incorrect.",en_cours,basse,-0.19,,CL003,PR002,AG06,Panne technique,Chatbot,Erreur de synchronisation facturation v2.3,0.76
+REC2026-0019,2026-04-12,"Panne recurrente sur Carte Bancaire Premium depuis plusieurs jours, aucune amelioration.",en_cours,haute,-0.41,,CL009,PR004,AG06,Livraison,Telephone,Erreur agence - saisie manuelle,0.96
+REC2026-0020,2026-05-18,"Panne recurrente sur Carte de Fidelite depuis plusieurs jours, aucune amelioration.",en_cours,haute,-0.83,,CL001,PR008,AG05,Résiliation,Email,Erreur de synchronisation facturation v2.3,0.74
+REC2026-0021,2026-05-20,"Facturation en double sur Abonnement Streaming, montant preleve deux fois ce mois-ci.",rejetee,haute,-0.2,,CL008,PR006,AG03,Panne technique,Chatbot,Double prelevement bancaire,0.99
+REC2026-0022,2026-01-30,"Erreur sur mon releve concernant Livraison Express, montant incorrect.",ouverte,moyenne,-0.65,,CL018,PR005,AG06,Facturation,Telephone,Erreur agence - saisie manuelle,0.84
+REC2026-0023,2026-01-14,"Erreur sur mon releve concernant Livraison Express, montant incorrect.",ouverte,critique,0.08,,CL007,PR005,AG05,Service client,App mobile,Double prelevement bancaire,0.62
+REC2026-0024,2026-04-20,Livraison de Livraison Express en retard de plus d'une semaine sans notification.,resolue,basse,-0.85,90.8,CL005,PR005,AG02,Service client,Agence,Procedure de resiliation floue,0.87
+REC2026-0025,2026-04-21,"Facturation en double sur Forfait Internet Fibre, montant preleve deux fois ce mois-ci.",en_cours,basse,-0.6,,CL018,PR001,AG03,Résiliation,Agence,Rupture de stock non signalee,0.95
+REC2026-0026,2026-07-19,Impossible de joindre le service client concernant Carte Bancaire Premium.,resolue,critique,0.27,72.2,CL012,PR004,AG06,Panne technique,Email,Erreur agence - saisie manuelle,0.96
+REC2026-0027,2026-03-27,"Facturation en double sur Compte Courant Digital, montant preleve deux fois ce mois-ci.",resolue,moyenne,-0.65,75.8,CL006,PR003,AG04,Facturation,Telephone,Procedure de resiliation floue,0.64
+REC2026-0028,2026-07-23,"Erreur sur mon releve concernant Carte Bancaire Premium, montant incorrect.",en_cours,moyenne,-0.97,,CL016,PR004,AG02,Service client,App mobile,Erreur agence - saisie manuelle,0.68
+REC2026-0029,2026-06-23,Livraison de Forfait Mobile 4G/5G en retard de plus d'une semaine sans notification.,resolue,haute,0.22,12.0,CL009,PR002,AG03,Livraison,Agence,Panne reseau regionale,0.98
+REC2026-0030,2026-03-30,"Panne recurrente sur Livraison Express depuis plusieurs jours, aucune amelioration.",rejetee,haute,-0.43,,CL019,PR005,AG01,Facturation,Agence,Panne reseau regionale,0.98
+REC2026-0031,2026-05-14,"Erreur sur mon releve concernant Carte Bancaire Premium, montant incorrect.",resolue,moyenne,-0.53,7.6,CL013,PR004,AG03,Facturation,Chatbot,Erreur de synchronisation facturation v2.3,0.86
+REC2026-0032,2026-03-21,Livraison de Abonnement Streaming en retard de plus d'une semaine sans notification.,rejetee,critique,-0.58,,CL020,PR006,AG06,Facturation,App mobile,Delai de livraison transporteur,0.87
+REC2026-0033,2026-05-26,Demande de resiliation de Pret Personnel non traitee apres plusieurs relances.,escaladee,critique,-0.29,,CL007,PR007,AG06,Service client,Telephone,Delai de livraison transporteur,0.6
+REC2026-0034,2026-04-24,Livraison de Pret Personnel en retard de plus d'une semaine sans notification.,resolue,moyenne,-0.34,76.4,CL007,PR007,AG05,Résiliation,App mobile,Panne reseau regionale,0.97
+REC2026-0035,2026-07-12,"Facturation en double sur Livraison Express, montant preleve deux fois ce mois-ci.",en_cours,haute,-0.71,,CL003,PR005,AG05,Résiliation,App mobile,Erreur de synchronisation facturation v2.3,0.68
+REC2026-0036,2026-04-17,Application instable lors de l'utilisation de Carte Bancaire Premium.,rejetee,moyenne,-0.07,,CL002,PR004,AG04,Résiliation,Email,Panne reseau regionale,0.75
+REC2026-0037,2026-04-19,Aucune reponse a ma reclamation precedente sur Compte Courant Digital.,en_cours,moyenne,0.05,,CL008,PR003,AG06,Facturation,Email,Double prelevement bancaire,0.87
+REC2026-0038,2026-04-29,Application instable lors de l'utilisation de Carte Bancaire Premium.,rejetee,haute,0.24,,CL002,PR004,AG01,Service client,Telephone,Double prelevement bancaire,0.95
+REC2026-0039,2026-07-12,Impossible de joindre le service client concernant Carte de Fidelite.,en_cours,haute,-0.0,,CL018,PR008,AG02,Service client,Chatbot,Erreur agence - saisie manuelle,0.8
+REC2026-0040,2026-03-27,Livraison de Carte de Fidelite en retard de plus d'une semaine sans notification.,escaladee,basse,-0.82,,CL009,PR008,AG01,Livraison,Telephone,Erreur agence - saisie manuelle,0.69
+REC2026-0041,2026-04-30,"Facturation en double sur Forfait Mobile 4G/5G, montant preleve deux fois ce mois-ci.",resolue,basse,-0.73,40.9,CL007,PR002,AG04,Service client,App mobile,Delai de livraison transporteur,0.95
+REC2026-0042,2026-07-12,Impossible de joindre le service client concernant Pret Personnel.,resolue,critique,-0.3,70.8,CL019,PR007,AG04,Facturation,App mobile,Erreur agence - saisie manuelle,0.91
+REC2026-0043,2026-04-10,Livraison de Carte Bancaire Premium en retard de plus d'une semaine sans notification.,escaladee,critique,-0.06,,CL016,PR004,AG03,Service client,Chatbot,Erreur de synchronisation facturation v2.3,0.93
+REC2026-0044,2026-01-07,"Facturation en double sur Forfait Internet Fibre, montant preleve deux fois ce mois-ci.",ouverte,critique,-0.82,,CL020,PR001,AG04,Résiliation,Agence,Procedure de resiliation floue,0.78
+REC2026-0045,2026-03-28,"Panne recurrente sur Pret Personnel depuis plusieurs jours, aucune amelioration.",resolue,haute,-0.02,80.0,CL009,PR007,AG03,Panne technique,Chatbot,Erreur agence - saisie manuelle,0.7
+REC2026-0046,2026-02-27,"Facturation en double sur Forfait Internet Fibre, montant preleve deux fois ce mois-ci.",rejetee,basse,0.02,,CL016,PR001,AG06,Résiliation,Email,Erreur agence - saisie manuelle,0.85
+REC2026-0047,2026-02-02,"Erreur sur mon releve concernant Carte Bancaire Premium, montant incorrect.",resolue,basse,-0.27,21.7,CL008,PR004,AG01,Résiliation,Telephone,Rupture de stock non signalee,0.87
+REC2026-0048,2026-01-07,"Panne recurrente sur Forfait Mobile 4G/5G depuis plusieurs jours, aucune amelioration.",escaladee,critique,-0.48,,CL006,PR002,AG02,Livraison,Email,Delai de livraison transporteur,0.88
+REC2026-0049,2026-01-31,"Erreur sur mon releve concernant Carte Bancaire Premium, montant incorrect.",resolue,basse,-0.55,41.7,CL019,PR004,AG01,Livraison,Agence,Double prelevement bancaire,0.74
+REC2026-0050,2026-06-12,Demande de resiliation de Pret Personnel non traitee apres plusieurs relances.,resolue,moyenne,-0.43,70.7,CL001,PR007,AG04,Facturation,Chatbot,Erreur agence - saisie manuelle,0.98
+REC2026-0051,2026-03-24,Aucune reponse a ma reclamation precedente sur Carte de Fidelite.,en_cours,basse,-0.64,,CL020,PR008,AG04,Service client,Agence,Erreur agence - saisie manuelle,0.78
+REC2026-0052,2026-03-25,"Erreur sur mon releve concernant Pret Personnel, montant incorrect.",en_cours,critique,-0.72,,CL019,PR007,AG03,Facturation,Chatbot,Double prelevement bancaire,0.91
+REC2026-0053,2026-01-22,Aucune reponse a ma reclamation precedente sur Livraison Express.,en_cours,critique,-0.36,,CL009,PR005,AG05,Facturation,Agence,Rupture de stock non signalee,0.9
+REC2026-0054,2026-04-14,Aucune reponse a ma reclamation precedente sur Carte de Fidelite.,rejetee,moyenne,-0.6,,CL016,PR008,AG01,Facturation,App mobile,Rupture de stock non signalee,0.83
+REC2026-0055,2026-06-29,"Erreur sur mon releve concernant Abonnement Streaming, montant incorrect.",resolue,haute,-0.6,22.9,CL018,PR006,AG04,Résiliation,App mobile,Erreur agence - saisie manuelle,0.88
+REC2026-0056,2026-07-05,"Erreur sur mon releve concernant Compte Courant Digital, montant incorrect.",resolue,haute,0.27,80.1,CL004,PR003,AG02,Panne technique,Chatbot,Erreur agence - saisie manuelle,0.72
+REC2026-0057,2026-01-12,Aucune reponse a ma reclamation precedente sur Livraison Express.,ouverte,haute,-0.09,,CL006,PR005,AG01,Résiliation,Telephone,Erreur agence - saisie manuelle,0.65
+REC2026-0058,2026-04-23,Aucune reponse a ma reclamation precedente sur Forfait Internet Fibre.,escaladee,moyenne,0.26,,CL004,PR001,AG05,Livraison,Chatbot,Panne reseau regionale,0.7
+REC2026-0059,2026-06-11,Demande de resiliation de Forfait Mobile 4G/5G non traitee apres plusieurs relances.,rejetee,basse,-0.8,,CL004,PR002,AG04,Service client,Email,Delai de livraison transporteur,0.92
+REC2026-0060,2026-06-02,Demande de resiliation de Carte Bancaire Premium non traitee apres plusieurs relances.,resolue,moyenne,0.01,37.1,CL003,PR004,AG01,Résiliation,Chatbot,Delai de livraison transporteur,0.95

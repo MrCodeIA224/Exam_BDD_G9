@@ -1,0 +1,8 @@
+nom,description
+Erreur de synchronisation facturation v2.3,Bug applicatif sur le module de facturation depuis la mise a jour v2.3
+Rupture de stock non signalee,Le stock n'est pas mis a jour en temps reel sur le site
+Erreur agence - saisie manuelle,Erreur humaine lors de la saisie d'une demande en agence
+Panne reseau regionale,Incident technique affectant une zone geographique
+Delai de livraison transporteur,Retard cote du prestataire logistique externe
+Procedure de resiliation floue,Manque de clarte dans les etapes de resiliation communiquees au client
+Double prelevement bancaire,Erreur systeme entrainant un prelevement en double
