@@ -1,9 +1,11 @@
 // =========================================================
 // 01_schema_contraintes.cypher
 // Contraintes d'unicité et index — à exécuter en premier
+// Compatible Neo4j Community Edition
 // =========================================================
 
 // --- Contraintes d'unicité (identifiants métier) ---
+// Disponibles en Community Edition
 CREATE CONSTRAINT client_id IF NOT EXISTS
 FOR (c:Client) REQUIRE c.id IS UNIQUE;
 
@@ -26,13 +28,18 @@ CREATE CONSTRAINT canal_nom IF NOT EXISTS
 FOR (ch:Canal) REQUIRE ch.nom IS UNIQUE;
 
 // --- Contraintes d'existence (propriétés obligatoires) ---
-CREATE CONSTRAINT reclamation_statut_exists IF NOT EXISTS
-FOR (r:Reclamation) REQUIRE r.statut IS NOT NULL;
-
-CREATE CONSTRAINT reclamation_date_exists IF NOT EXISTS
-FOR (r:Reclamation) REQUIRE r.dateCreation IS NOT NULL;
+// NON DISPONIBLES en Community Edition — nécessitent Neo4j Enterprise Edition.
+// Retirées ici volontairement. Voir README / rapport pour la justification
+// et l'alternative retenue (validation applicative).
+//
+// CREATE CONSTRAINT reclamation_statut_exists IF NOT EXISTS
+// FOR (r:Reclamation) REQUIRE r.statut IS NOT NULL;
+//
+// CREATE CONSTRAINT reclamation_date_exists IF NOT EXISTS
+// FOR (r:Reclamation) REQUIRE r.dateCreation IS NOT NULL;
 
 // --- Index secondaires pour accélérer les requêtes d'analyse fréquentes ---
+// Disponibles en Community Edition
 CREATE INDEX reclamation_statut IF NOT EXISTS
 FOR (r:Reclamation) ON (r.statut);
 
