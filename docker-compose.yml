@@ -4,10 +4,10 @@ services:
     container_name: neo4j_exam_bdd_G9
     ports:
       - "7474:7474" # Port pour l'interface web (Neo4j Browser)
-      - "7687:7687" # Port pour la connexion du code de l'IA (Bolt)
+      - "7687:7687" # Port pour la connexion du code de l'IA
     environment:
       - NEO4J_AUTH=neo4j/M1_IA_BDD_G9 # Identifiant et mot de passe commun
-      - NEO4J_server_memory_pagecache_size=512M # Votre Page Cache configuré uniformément
+      - NEO4J_server_memory_pagecache_size=512M # Page Cache configuré uniformément
     volumes:
       - ./neo4j/data:/data       # Liaison pour stocker les fichiers neostore localement
       - ./neo4j/logs:/logs       # Journaux d'erreurs partagés

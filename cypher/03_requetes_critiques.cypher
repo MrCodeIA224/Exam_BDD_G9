@@ -20,7 +20,7 @@ ORDER BY nbReclamations DESC;
 MATCH (r:Reclamation)-[:A_POUR_CAUSE]->(cause:CauseRacine)
 WHERE r.statut <> 'resolue'
   AND r.priorite = 'critique'
-  AND duration.between(r.dateCreation, date()).hours > 48
+  AND duration.between(r.dateCreation, date()).days > 2
 RETURN cause.nom AS cause, count(r) AS nbEnRetard
 ORDER BY nbEnRetard DESC;
 
@@ -32,9 +32,15 @@ ORDER BY nbTraitees DESC;
 // --- 5. Produits générant le plus de réclamations d'une catégorie donnée ---
 MATCH (r:Reclamation)-[:CONCERNE]->(p:Produit),
       (r)-[:APPARTIENT_A]->(cat:Categorie {nom: 'Facturation'})
-RETURN p.nom AS produit, count(r) AS nbReclamations
+RETURN p.nom AS produit, count(r) AS nbReclamations, cat.nom AS categorie
 ORDER BY nbReclamations DESC
-LIMIT 10;
+LIMIT 100;
+
+// -- Creation des similarités entre réclamations (exemple de requête pour pré-calculer les relations SIMILAR_A) ---
+MATCH (r1:Reclamation)-[:CONCERNE]->(p:Produit)<-[:CONCERNE]-(r2:Reclamation)
+MATCH (r1)-[:A_POUR_CAUSE]->(c:CauseRacine)<-[:A_POUR_CAUSE]-(r2)
+WHERE r1.id < r2.id
+MERGE (r1)-[:SIMILAR_A {score: 0.88}]->(r2);
 
 // --- 6. Détection de réclamations similaires (nécessite la relation SIMILAIRE_A pré-calculée) ---
 MATCH (r1:Reclamation)-[s:SIMILAR_A]->(r2:Reclamation)
