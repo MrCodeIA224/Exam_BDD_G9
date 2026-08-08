@@ -37,7 +37,7 @@ ORDER BY nbReclamations DESC
 LIMIT 10;
 
 // --- 6. Détection de réclamations similaires (nécessite la relation SIMILAIRE_A pré-calculée) ---
-MATCH (r1:Reclamation)-[s:SIMILAIRE_A]->(r2:Reclamation)
+MATCH (r1:Reclamation)-[s:SIMILAR_A]->(r2:Reclamation)
 WHERE s.score > 0.85
 RETURN r1.id AS reclamation1, r2.id AS reclamation2, s.score AS similarite
 ORDER BY similarite DESC

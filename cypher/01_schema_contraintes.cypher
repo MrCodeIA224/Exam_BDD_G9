@@ -27,16 +27,6 @@ FOR (cs:CauseRacine) REQUIRE cs.nom IS UNIQUE;
 CREATE CONSTRAINT canal_nom IF NOT EXISTS
 FOR (ch:Canal) REQUIRE ch.nom IS UNIQUE;
 
-// --- Contraintes d'existence (propriétés obligatoires) ---
-// NON DISPONIBLES en Community Edition — nécessitent Neo4j Enterprise Edition.
-// Retirées ici volontairement. Voir README / rapport pour la justification
-// et l'alternative retenue (validation applicative).
-//
-// CREATE CONSTRAINT reclamation_statut_exists IF NOT EXISTS
-// FOR (r:Reclamation) REQUIRE r.statut IS NOT NULL;
-//
-// CREATE CONSTRAINT reclamation_date_exists IF NOT EXISTS
-// FOR (r:Reclamation) REQUIRE r.dateCreation IS NOT NULL;
 
 // --- Index secondaires pour accélérer les requêtes d'analyse fréquentes ---
 // Disponibles en Community Edition

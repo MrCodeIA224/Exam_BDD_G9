@@ -50,12 +50,151 @@ REC2026-0048,2026-01-07,"Panne recurrente sur Forfait Mobile 4G/5G depuis plusie
 REC2026-0049,2026-01-31,"Erreur sur mon releve concernant Carte Bancaire Premium, montant incorrect.",resolue,basse,-0.55,41.7,CL019,PR004,AG01,Livraison,Agence,Double prelevement bancaire,0.74
 REC2026-0050,2026-06-12,Demande de resiliation de Pret Personnel non traitee apres plusieurs relances.,resolue,moyenne,-0.43,70.7,CL001,PR007,AG04,Facturation,Chatbot,Erreur agence - saisie manuelle,0.98
 REC2026-0051,2026-03-24,Aucune reponse a ma reclamation precedente sur Carte de Fidelite.,en_cours,basse,-0.64,,CL020,PR008,AG04,Service client,Agence,Erreur agence - saisie manuelle,0.78
-REC2026-0052,2026-03-25,"Erreur sur mon releve concernant Pret Personnel, montant incorrect.",en_cours,critique,-0.72,,CL019,PR007,AG03,Facturation,Chatbot,Double prelevement bancaire,0.91
+REC2026-0052,2026-03-25,"Erreur sur mon releve concernant Pret Personnel, montant incorrect.",en_cours,critique,-0.72,,CL021,PR007,AG03,Facturation,Chatbot,Double prelevement bancaire,0.91
 REC2026-0053,2026-01-22,Aucune reponse a ma reclamation precedente sur Livraison Express.,en_cours,critique,-0.36,,CL009,PR005,AG05,Facturation,Agence,Rupture de stock non signalee,0.9
 REC2026-0054,2026-04-14,Aucune reponse a ma reclamation precedente sur Carte de Fidelite.,rejetee,moyenne,-0.6,,CL016,PR008,AG01,Facturation,App mobile,Rupture de stock non signalee,0.83
 REC2026-0055,2026-06-29,"Erreur sur mon releve concernant Abonnement Streaming, montant incorrect.",resolue,haute,-0.6,22.9,CL018,PR006,AG04,Résiliation,App mobile,Erreur agence - saisie manuelle,0.88
 REC2026-0056,2026-07-05,"Erreur sur mon releve concernant Compte Courant Digital, montant incorrect.",resolue,haute,0.27,80.1,CL004,PR003,AG02,Panne technique,Chatbot,Erreur agence - saisie manuelle,0.72
 REC2026-0057,2026-01-12,Aucune reponse a ma reclamation precedente sur Livraison Express.,ouverte,haute,-0.09,,CL006,PR005,AG01,Résiliation,Telephone,Erreur agence - saisie manuelle,0.65
 REC2026-0058,2026-04-23,Aucune reponse a ma reclamation precedente sur Forfait Internet Fibre.,escaladee,moyenne,0.26,,CL004,PR001,AG05,Livraison,Chatbot,Panne reseau regionale,0.7
-REC2026-0059,2026-06-11,Demande de resiliation de Forfait Mobile 4G/5G non traitee apres plusieurs relances.,rejetee,basse,-0.8,,CL004,PR002,AG04,Service client,Email,Delai de livraison transporteur,0.92
+REC2026-0059,2026-06-11,Demande de resiliation de Forfait Mobile 4G/5G non traitee apres plusieurs relances.,rejetee,basse,-0.8,,CL022,PR002,AG04,Service client,Email,Delai de livraison transporteur,0.92
 REC2026-0060,2026-06-02,Demande de resiliation de Carte Bancaire Premium non traitee apres plusieurs relances.,resolue,moyenne,0.01,37.1,CL003,PR004,AG01,Résiliation,Chatbot,Delai de livraison transporteur,0.95
+REC2026-0061,2026-06-12,Échec répétitif lors du transfert d'argent via l'application mobile.,en_cours,haute,-0.85,,CL023,PR002,AG07,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.91
+REC2026-0062,2026-06-12,Forfait internet activé mais aucune connexion réseau disponible.,ouverte,critique,-0.92,,CL024,PR001,AG08,panne_reseau,application_mobile,Surcharge_Antenne_Relais,0.95
+REC2026-0063,2026-06-13,Erreur de facturation sur le renouvellement de la ligne fixe.,resolue,basse,-0.30,2.5,CL025,PR003,AG09,facturation,agence_physique,Bug_Mise_A_Jour_App,0.78
+REC2026-0064,2026-06-13,Code de validation de transaction de paiement non reçu par SMS.,en_cours,haute,-0.78,,CL026,PR002,AG10,mobile_money,chatbot,Surcharge_Antenne_Relais,0.88
+REC2026-0065,2026-06-14,Débit incorrect après une tentative de dépôt échouée.,ouverte,critique,-0.95,,CL027,PR002,AG11,mobile_money,agence_physique,Bug_Mise_A_Jour_App,0.94
+REC2026-0066,2026-06-14,Lenteur extrême du réseau internet en zone urbaine le soir.,en_cours,moyenne,-0.60,,CL028,PR001,AG12,panne_reseau,application_mobile,Surcharge_Antenne_Relais,0.85
+REC2026-0067,2026-06-15,Impossible de joindre le support client par téléphone.,resolue,basse,0.10,24.0,CL029,PR005,AG13,facturation,agence_physique,Bug_Mise_A_Jour_App,0.70
+REC2026-0068,2026-06-15,Mon solde crédit a disparu sans aucune consommation de ma part.,ouverte,haute,-0.88,,CL030,PR003,AG14,facturation,chatbot,Bug_Mise_A_Jour_App,0.90
+REC2026-0069,2026-06-16,L'application mobile plante instantanément au démarrage.,en_cours,moyenne,-0.70,,CL031,PR002,AG15,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.93
+REC2026-0070,2026-06-16,Coupure totale de la fibre optique à domicile depuis 24h.,ouverte,critique,-0.97,,CL032,PR001,AG16,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.99
+REC2026-0071,2026-06-17,Double prélèvement lors de l'achat d'un pass internet spécial.,resolue,moyenne,-0.40,12.2,CL033,PR001,AG07,facturation,application_mobile,Bug_Mise_A_Jour_App,0.82
+REC2026-0072,2026-06-17,Erreur lors de la modification des options du compte client.,en_cours,basse,-0.20,,CL034,PR005,AG08,facturation,chatbot,Bug_Mise_A_Jour_App,0.75
+REC2026-0073,2026-06-18,Le service de paiement marchand rejette toutes mes tentatives.,ouverte,haute,-0.81,,CL035,PR002,AG09,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.89
+REC2026-0074,2026-06-18,Aucun signal réseau disponible dans tout le quartier de la Médina.,en_cours,critique,-0.94,,CL036,PR001,AG10,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.96
+REC2026-0075,2026-06-19,Réclamation suite à une mauvaise explication des tarifs en agence.,resolue,basse,0.00,1.5,CL037,PR005,AG11,facturation,agence_physique,Bug_Mise_A_Jour_App,0.65
+REC2026-0076,2026-06-19,Erreur critique lors de la synchronisation du portefeuille virtuel.,ouverte,haute,-0.87,,CL038,PR002,AG12,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.92
+REC2026-0077,2026-06-20,Déconnexions intempestives du réseau 4G pendant les appels visio.,en_cours,moyenne,-0.55,,CL039,PR001,AG13,panne_reseau,chatbot,Surcharge_Antenne_Relais,0.84
+REC2026-0078,2026-06-20,Le montant maximum de transfert est bloqué sans justification.,ouverte,haute,-0.74,,CL040,PR002,AG14,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.87
+REC2026-0079,2026-06-21,Le reçu de transaction n'est pas envoyé à l'adresse e-mail.,resolue,basse,-0.10,4.0,CL041,PR005,AG15,facturation,chatbot,Bug_Mise_A_Jour_App,0.72
+REC2026-0080,2026-06-21,Perte de réseau totale constatée suite aux intempéries locales.,en_cours,critique,-0.91,,CL042,PR001,AG16,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.95
+REC2026-0081,2026-06-22,Frais de gestion de compte prélevés deux fois par erreur.,ouverte,moyenne,-0.65,,CL043,PR002,AG07,facturation,application_mobile,Bug_Mise_A_Jour_App,0.86
+REC2026-0082,2026-06-22,Impossible d'activer ma nouvelle carte SIM sur le réseau.,en_cours,haute,-0.79,,CL044,PR005,AG08,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.89
+REC2026-0083,2026-06-23,Le solde bonus promis lors de la recharge n'apparaît pas.,resolue,basse,-0.25,48.0,CL045,PR003,AG09,facturation,chatbot,Bug_Mise_A_Jour_App,0.80
+REC2026-0084,2026-06-23,Panne intermittente de la box internet internet pro de l'agence.,ouverte,critique,-0.93,,CL046,PR001,AG10,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.97
+REC2026-0085,2026-06-24,Erreur inconnue lors du rechargement de crédit par carte.,en_cours,moyenne,-0.50,,CL047,PR003,AG11,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.81
+REC2026-0086,2026-06-24,Le système refuse d'enregistrer ma réclamation via le chatbot.,ouverte,basse,-0.35,,CL048,PR005,AG12,facturation,chatbot,Bug_Mise_A_Jour_App,0.74
+REC2026-0087,2026-06-25,L'accès au tableau de bord de consommation internet est bloqué.,resolue,basse,-0.15,6.5,CL049,PR001,AG13,facturation,application_mobile,Bug_Mise_A_Jour_App,0.79
+REC2026-0088,2026-06-25,Impossible d'effectuer un retrait d'argent au guichet automatique.,en_cours,haute,-0.84,,CL050,PR002,AG14,mobile_money,agence_physique,Bug_Mise_A_Jour_App,0.91
+REC2026-0089,2026-06-26,Perte de signal 5G intempestive dans le centre de Dakar.,ouverte,haute,-0.72,,CL051,PR001,AG15,panne_reseau,application_mobile,Surcharge_Antenne_Relais,0.88
+REC2026-0090,2026-06-26,Erreur de compte bloqué après un virement bancaire entrant.,en_cours,critique,-0.96,,CL052,PR002,AG16,mobile_money,agence_physique,Bug_Mise_A_Jour_App,0.95
+REC2026-0091,2026-06-27,Le forfait SMS illimité s'est arrêté avant la date d'expiration.,resolue,basse,-0.30,1.2,CL053,PR003,AG07,facturation,chatbot,Bug_Mise_A_Jour_App,0.83
+REC2026-0092,2026-06-27,Impossible de lier mon numéro de téléphone à mon profil fintech.,ouverte,haute,-0.80,,CL054,PR002,AG08,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.90
+REC2026-0093,2026-06-28,Chute drastique du débit internet en plein milieu d'une conférence.,en_cours,haute,-0.75,,CL055,PR001,AG09,panne_reseau,application_mobile,Surcharge_Antenne_Relais,0.86
+REC2026-0094,2026-06-28,Mon compte client a été piraté et vidé de ses points fidélité.,ouverte,critique,-0.98,,CL056,PR005,AG10,facturation,agence_physique,Bug_Mise_A_Jour_App,0.97
+REC2026-0095,2026-06-29,Le service client en agence refuse de prendre ma plainte.,resolue,basse,-0.05,2.0,CL057,PR005,AG11,facturation,agence_physique,Bug_Mise_A_Jour_App,0.60
+REC2026-0096,2026-06-29,Erreur d'envoi d'argent vers un autre opérateur national.,en_cours,haute,-0.83,,CL058,PR002,AG12,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.91
+REC2026-0097,2026-06-30,Le réseau mobile saute toutes les 5 minutes sur mon appareil.,ouverte,moyenne,-0.62,,CL059,PR001,AG13,panne_reseau,chatbot,Surcharge_Antenne_Relais,0.84
+REC2026-0098,2026-06-30,Contestation des frais d'itinérance appliqués lors de mon voyage.,en_cours,moyenne,-0.58,,CL060,PR003,AG14,facturation,agence_physique,Bug_Mise_A_Jour_App,0.80
+REC2026-0099,2026-07-01,Le code de confirmation USSD ne fonctionne plus du tout.,resolue,basse,-0.20,3.1,CL061,PR005,AG15,mobile_money,chatbot,Bug_Mise_A_Jour_App,0.76
+REC2026-0100,2026-07-01,Panne globale de l'antenne réseau couvrant la zone industrielle.,ouverte,critique,-0.95,,CL062,PR001,AG16,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.98
+REC2026-0101,2026-07-02,Le virement de salaire n'apparaît toujours pas sur l'application.,en_cours,haute,-0.88,,CL063,PR002,AG07,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.92
+REC2026-0102,2026-07-02,Impossible de renouveler le pass internet mensuel automatique.,ouverte,moyenne,-0.45,,CL064,PR001,AG08,facturation,application_mobile,Bug_Mise_A_Jour_App,0.81
+REC2026-0103,2026-07-03,Erreur de facturation sur le service d'abonnement TV mobile.,resolue,basse,-0.12,5.0,CL065,PR003,AG09,facturation,chatbot,Bug_Mise_A_Jour_App,0.73
+REC2026-0104,2026-07-03,Le portefeuille électronique indique un solde négatif anormal.,ouverte,critique,-0.91,,CL066,PR002,AG10,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.96
+REC2026-0105,2026-07-04,Problème de connexion internet sur la clé 4G de rechange.,en_cours,basse,-0.38,,CL067,PR001,AG11,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.78
+REC2026-0106,2026-07-04,Frais abusifs constatés sur un transfert vers l'international.,ouverte,haute,-0.77,,CL068,PR002,AG12,facturation,application_mobile,Bug_Mise_A_Jour_App,0.85
+REC2026-0107,2026-07-05,Le service client téléphonique a coupé l'appel de manière abrupte.,resolue,basse,-0.40,0.8,CL069,PR005,AG13,facturation,agence_physique,Bug_Mise_A_Jour_App,0.67
+REC2026-0108,2026-07-05,L'antenne relais locale ne bascule pas en mode haut débit 5G.,ouverte,moyenne,-0.50,,CL070,PR001,AG14,panne_reseau,chatbot,Surcharge_Antenne_Relais,0.82
+REC2026-0109,2026-07-06,Erreur réseau générique empêchant tout appel sortant.,en_cours,haute,-0.82,,CL071,PR001,AG15,panne_reseau,application_mobile,Surcharge_Antenne_Relais,0.89
+REC2026-0110,2026-07-06,Le dépôt d'argent en boutique n'a pas été validé par l'agent.,ouverte,critique,-0.94,,CL072,PR002,AG16,mobile_money,agence_physique,Bug_Mise_A_Jour_App,0.95
+REC2026-0111,2026-07-07,L'historique des transactions affiche des données corrompues.,resolue,basse,-0.22,14.5,CL073,PR002,AG07,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.80
+REC2026-0112,2026-07-07,Impossible de commander un nouveau routeur internet fixe.,ouverte,basse,-0.30,,CL074,PR001,AG08,facturation,chatbot,Bug_Mise_A_Jour_App,0.73
+REC2026-0113,2026-07-08,Le code de sécurité pour réinitialiser mon mot de passe a expiré.,en_cours,moyenne,-0.48,,CL075,PR005,AG09,facturation,application_mobile,Bug_Mise_A_Jour_App,0.81
+REC2026-0114,2026-07-08,Lenteur extrême pour valider le KYC d'inscription au service.,ouverte,haute,-0.71,,CL076,PR005,AG10,facturation,agence_physique,Bug_Mise_A_Jour_App,0.84
+REC2026-0115,2026-07-09,Le service d'assistance par chat automatique renvoie une erreur.,resolue,basse,0.05,2.2,CL077,PR005,AG11,facturation,chatbot,Bug_Mise_A_Jour_App,0.71
+REC2026-0116,2026-07-09,Le solde du compte a baissé après un redémarrage de la box.,ouverte,haute,-0.86,,CL078,PR003,AG12,facturation,agence_physique,Bug_Mise_A_Jour_App,0.90
+REC2026-0117,2026-07-10,Impossible d'ajouter des bénéficiaires pour les virements de groupe.,en_cours,moyenne,-0.60,,CL079,PR002,AG13,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.83
+REC2026-0118,2026-07-10,L'antenne du quartier s'éteint complètement chaque nuit.,ouverte,critique,-0.93,,CL080,PR001,AG14,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.96
+REC2026-0119,2026-07-11,Erreur de prélèvement sur mon offre de roaming international.,resolue,moyenne,-0.35,9.0,CL081,PR003,AG15,facturation,application_mobile,Bug_Mise_A_Jour_App,0.80
+REC2026-0120,2026-07-11,Le service de mini-crédit mobile applique des intérêts trop élevés.,ouverte,haute,-0.79,,CL082,PR002,AG16,facturation,chatbot,Bug_Mise_A_Jour_App,0.87
+REC2026-0121,2026-07-12,L'application plante lors de la génération du QR code de paiement.,en_cours,moyenne,-0.64,,CL083,PR002,AG07,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.85
+REC2026-0122,2026-07-12,Interruption brutale du service internet fibre en pleine journée.,ouverte,critique,-0.95,,CL084,PR001,AG08,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.97
+REC2026-0123,2026-07-13,Facturation de services tiers non autorisés sur ma ligne mobile.,resolue,basse,-0.20,3.5,CL085,PR003,AG09,facturation,chatbot,Bug_Mise_A_Jour_App,0.76
+REC2026-0124,2026-07-13,Le plafond de paiement par carte virtuelle refuse de s'ajuster.,ouverte,haute,-0.73,,CL086,PR002,AG10,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.88
+REC2026-0125,2026-07-14,Le terminal de paiement électronique fourni est défectueux.,en_cours,basse,-0.30,,CL087,PR005,AG11,mobile_money,agence_physique,Bug_Mise_A_Jour_App,0.74
+REC2026-0126,2026-07-14,Saturation constante du réseau data 4G aux heures de bureau.,ouverte,haute,-0.82,,CL088,PR001,AG12,panne_reseau,application_mobile,Surcharge_Antenne_Relais,0.91
+REC2026-0127,2026-07-15,Erreur d'authentification lors de la connexion au portail web.,resolue,basse,-0.10,1.8,CL089,PR005,AG13,facturation,chatbot,Bug_Mise_A_Jour_App,0.78
+REC2026-0128,2026-07-15,Échec massif des transactions de transfert d'argent le vendredi.,ouverte,critique,-0.96,,CL090,PR002,AG14,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.95
+REC2026-0129,2026-07-16,Le pass internet acheté n'inclut pas les applications gratuites.,en_cours,basse,-0.25,,CL091,PR001,AG15,facturation,chatbot,Bug_Mise_A_Jour_App,0.79
+REC2026-0130,2026-07-16,Panne réseau généralisée impactant toute la ville de Saint-Louis.,ouverte,critique,-0.99,,CL092,PR001,AG16,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.98
+REC2026-0131,2026-07-17,Impossible de récupérer l'argent bloqué sur une transaction échouée.,resolue,haute,-0.80,24.0,CL093,PR002,AG07,mobile_money,agence_physique,Bug_Mise_A_Jour_App,0.90
+REC2026-0132,2026-07-17,Lenteur de traitement pour le remboursement d'un double prélèvement.,ouverte,haute,-0.75,,CL094,PR002,AG08,facturation,application_mobile,Bug_Mise_A_Jour_App,0.86
+REC2026-0133,2026-07-18,La jauge de suivi data de l'application indique des fausses valeurs.,en_cours,basse,-0.15,,CL095,PR001,AG09,facturation,application_mobile,Bug_Mise_A_Jour_App,0.82
+REC2026-0134,2026-07-18,L'antenne relais mobile surchauffe et s'éteint régulièrement.,ouverte,critique,-0.92,,CL096,PR001,AG10,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.94
+REC2026-0135,2026-07-19,Erreur technique empêchant l'achat de crédit depuis le compte.,resolue,basse,-0.30,4.2,CL097,PR003,AG11,mobile_money,chatbot,Bug_Mise_A_Jour_App,0.84
+REC2026-0136,2026-07-19,Le compte commerçant refuse d'accepter les paiements par téléphone.,ouverte,haute,-0.85,,CL098,PR002,AG12,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.92
+REC2026-0137,2026-07-20,Le débit internet fibre s'effondre pendant le visionnage vidéo.,en_cours,moyenne,-0.50,,CL099,PR001,AG13,panne_reseau,chatbot,Surcharge_Antenne_Relais,0.83
+REC2026-0138,2026-07-20,Mon abonnement premium a été annulé par erreur du système.,ouverte,haute,-0.78,,CL100,PR005,AG14,facturation,agence_physique,Bug_Mise_A_Jour_App,0.89
+REC2026-0139,2026-07-21,Le SMS d'alerte de fin de forfait n'est pas envoyé à temps.,resolue,basse,-0.20,1.5,CL023,PR001,AG15,facturation,chatbot,Bug_Mise_A_Jour_App,0.76
+REC2026-0140,2026-07-21,Erreur système lors du transfert d'argent direct de compte à compte.,ouverte,haute,-0.89,,CL024,PR002,AG16,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.93
+REC2026-0141,2026-07-22,Chute de la couverture réseau à l'intérieur des bâtiments.,en_cours,moyenne,-0.55,,CL025,PR001,AG07,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.81
+REC2026-0142,2026-07-22,Le bouton de validation de retrait d'argent reste grisé.,ouverte,haute,-0.72,,CL026,PR002,AG08,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.88
+REC2026-0143,2026-07-23,Frais cachés appliqués sur l'activation d'un service multimédia.,resolue,basse,-0.40,8.0,CL027,PR003,AG09,facturation,chatbot,Bug_Mise_A_Jour_App,0.74
+REC2026-0144,2026-07-23,L'application mobile affiche un écran noir au chargement du solde.,ouverte,haute,-0.81,,CL028,PR002,AG10,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.90
+REC2026-0145,2026-07-24,Le routeur wifi pro surchauffe et coupe la connexion des clients.,en_cours,moyenne,-0.45,,CL029,PR001,AG11,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.79
+REC2026-0146,2026-07-24,Interruption totale des services bancaires liés au mobile money.,ouverte,critique,-0.96,,CL030,PR002,AG12,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.95
+REC2026-0147,2026-07-25,Erreur d'affichage du nom du destinataire lors du transfert.,resolue,basse,-0.10,2.0,CL031,PR002,AG13,mobile_money,chatbot,Bug_Mise_A_Jour_App,0.77
+REC2026-0148,2026-07-25,Panne d'antenne réseau récurrente signalée à plusieurs reprises.,ouverte,critique,-0.94,,CL032,PR001,AG14,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.97
+REC2026-0149,2026-07-26,Le forfait internet data se vide anormalement vite sans usage.,en_cours,basse,-0.35,,CL033,PR001,AG15,facturation,application_mobile,Bug_Mise_A_Jour_App,0.83
+REC2026-0150,2026-07-26,Impossible de modifier le numéro de sécurité lié au compte.,ouverte,haute,-0.78,,CL034,PR005,AG16,facturation,agence_physique,Bug_Mise_A_Jour_App,0.86
+REC2026-0151,2026-07-27,Le service d'assistance automatique ne comprend pas ma demande.,resolue,basse,0.00,1.2,CL035,PR005,AG07,facturation,chatbot,Bug_Mise_A_Jour_App,0.68
+REC2026-0152,2026-07-27,Solde prélevé après une transaction annulée par le marchand.,ouverte,haute,-0.84,,CL036,PR002,AG08,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.91
+REC2026-0153,2026-07-28,Lenteur extrême pour envoyer des messages de support technique.,en_cours,moyenne,-0.48,,CL037,PR005,AG09,facturation,application_mobile,Bug_Mise_A_Jour_App,0.82
+REC2026-0154,2026-07-28,Coupure du réseau internet haut débit durant une visioconférence.,ouverte,critique,-0.91,,CL038,PR001,AG10,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.96
+REC2026-0155,2026-07-29,Erreur de tarification lors de l'appel vers un réseau tiers.,resolue,basse,-0.25,5.5,CL039,PR003,AG11,facturation,chatbot,Bug_Mise_A_Jour_App,0.80
+REC2026-0156,2026-07-29,L'argent envoyé reste bloqué dans le système informatique.,ouverte,haute,-0.87,,CL040,PR002,AG12,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.92
+REC2026-0157,2026-07-30,Le mot de passe temporaire par SMS arrive après expiration.,en_cours,basse,-0.30,,CL041,PR005,AG13,facturation,chatbot,Bug_Mise_A_Jour_App,0.75
+REC2026-0158,2026-07-30,Le réseau mobile est indisponible à l'université de Dakar.,ouverte,critique,-0.95,,CL042,PR001,AG14,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.98
+REC2026-0159,2026-07-31,Frais de virement appliqués sur une offre censée être gratuite.,resolue,basse,-0.15,3.0,CL043,PR002,AG15,facturation,application_mobile,Bug_Mise_A_Jour_App,0.79
+REC2026-0160,2026-07-31,Panne totale de transmission sur l'antenne principale locale.,ouverte,critique,-0.97,,CL044,PR001,AG16,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.95
+REC2026-0161,2026-08-01,Impossible d'accéder à l'historique annuel de mes factures.,en_cours,basse,-0.20,,CL045,PR005,AG07,facturation,application_mobile,Bug_Mise_A_Jour_App,0.81
+REC2026-0162,2026-08-01,Le solde de mon portefeuille de paiement affiche une ancienne valeur.,ouverte,haute,-0.83,,CL046,PR002,AG08,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.89
+REC2026-0163,2026-08-02,Le signal de la box internet saute lors des appels vocaux.,resolue,basse,-0.12,6.0,CL047,PR001,AG09,panne_reseau,chatbot,Surcharge_Antenne_Relais,0.77
+REC2026-0164,2026-08-02,Erreur de compte invalide lors d'un dépôt d'argent urgent.,ouverte,critique,-0.92,,CL048,PR002,AG10,mobile_money,agence_physique,Bug_Mise_A_Jour_App,0.94
+REC2026-0165,2026-08-03,Le chargement de l'application prend plus de deux minutes.,en_cours,moyenne,-0.40,,CL049,PR002,AG11,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.84
+REC2026-0166,2026-08-03,Problème de roaming data non fonctionnel dès le passage de la frontière.,ouverte,haute,-0.76,,CL050,PR001,AG12,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.87
+REC2026-0167,2026-08-04,Contestation d'un débit pour un pass data non reçu.,resolue,moyenne,-0.38,10.2,CL051,PR001,AG13,facturation,application_mobile,Bug_Mise_A_Jour_App,0.83
+REC2026-0168,2026-08-04,Échec d'envoi de fonds massif constaté sur le réseau régional.,ouverte,critique,-0.94,,CL052,PR002,AG14,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.96
+REC2026-0169,2026-08-05,Le service client ne répond pas au numéro d'assistance vert.,en_cours,basse,-0.30,,CL053,PR005,AG15,facturation,agence_physique,Bug_Mise_A_Jour_App,0.73
+REC2026-0170,2026-08-05,L'antenne du quartier est saturée et coupe les connexions internet.,ouverte,critique,-0.90,,CL054,PR001,AG16,panne_reseau,chatbot,Surcharge_Antenne_Relais,0.97
+REC2026-0171,2026-08-06,Frais abusifs de tenue de compte appliqués sans préavis.,resolue,basse,-0.45,4.0,CL055,PR003,AG07,facturation,agence_physique,Bug_Mise_A_Jour_App,0.79
+REC2026-0172,2026-08-06,Erreur de clé lors de l'accès sécurisé à l'application mobile.,ouverte,haute,-0.85,,CL056,PR002,AG08,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.91
+REC2026-0173,2026-08-07,Ralentissement général de la vitesse de téléchargement data.,en_cours,moyenne,-0.52,,CL057,PR001,AG09,panne_reseau,application_mobile,Surcharge_Antenne_Relais,0.80
+REC2026-0174,2026-08-07,Mon compte de paiement a été bloqué après une seule erreur de code.,ouverte,haute,-0.88,,CL058,PR002,AG10,mobile_money,agence_physique,Bug_Mise_A_Jour_App,0.93
+REC2026-0175,2026-08-08,Le code promo pour le pass internet ne s'applique pas.,resolue,basse,-0.10,1.1,CL059,PR001,AG11,facturation,chatbot,Bug_Mise_A_Jour_App,0.75
+REC2026-0176,2026-08-08,Impossible de transférer de l'argent vers un compte externe.,ouverte,haute,-0.81,,CL060,PR002,AG12,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.89
+REC2026-0177,2026-08-09,Perte de signal mobile constatée dans toute la zone résidentielle.,en_cours,haute,-0.74,,CL061,PR001,AG13,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.85
+REC2026-0178,2026-08-09,Le solde disponible baisse après chaque tentative d'appel échouée.,ouverte,critique,-0.93,,CL062,PR003,AG14,facturation,chatbot,Bug_Mise_A_Jour_App,0.96
+REC2026-0180,2026-08-10,L'infrastructure réseau locale subit une panne de courant majeure.,ouverte,critique,-0.96,,CL064,PR001,AG16,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.98
+REC2026-0181,2026-08-11,Erreur de paiement marchand sur les sites de e-commerce locaux.,en_cours,moyenne,-0.60,,CL065,PR002,AG07,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.84
+REC2026-0182,2026-08-11,Le pass data internet s'est désactivé après seulement deux heures.,ouverte,haute,-0.79,,CL066,PR001,AG08,facturation,application_mobile,Bug_Mise_A_Jour_App,0.87
+REC2026-0183,2026-08-12,Frais supplémentaires appliqués lors d'un retrait en zone rurale.,resolue,basse,-0.35,14.0,CL067,PR002,AG09,facturation,agence_physique,Bug_Mise_A_Jour_App,0.81
+REC2026-0184,2026-08-12,L'application de paiement affiche un message de serveur indisponible.,ouverte,haute,-0.87,,CL068,PR002,AG10,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.92
+REC2026-0185,2026-08-13,Coupure intermittente du signal réseau sur la route nationale.,en_cours,moyenne,-0.42,,CL069,PR001,AG11,panne_reseau,chatbot,Surcharge_Antenne_Relais,0.79
+REC2026-0186,2026-08-13,Tentative de piratage de compte bloquée mais profil inaccessible.,ouverte,haute,-0.71,,CL070,PR005,AG12,facturation,agence_physique,Bug_Mise_A_Jour_App,0.85
+REC2026-0187,2026-08-14,Le support par e-mail renvoie un message d'erreur automatique.,resolue,basse,0.05,1.5,CL071,PR005,AG13,facturation,chatbot,Bug_Mise_A_Jour_App,0.71
+REC2026-0188,2026-08-14,L'antenne du centre-ville refuse les connexions data 4G.,ouverte,critique,-0.92,,CL072,PR001,AG14,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.95
+REC2026-0189,2026-08-15,Erreur lors de la conversion de points fidélité en crédit appel.,en_cours,basse,-0.22,,CL073,PR003,AG15,facturation,application_mobile,Bug_Mise_A_Jour_App,0.80
+REC2026-0190,2026-08-15,Échec système empêchant la recharge par code USSD standard.,ouverte,haute,-0.80,,CL074,PR002,AG16,mobile_money,chatbot,Bug_Mise_A_Jour_App,0.89
+REC2026-0191,2026-08-16,Délai excessif pour l'installation de la ligne internet fixe.,resolue,basse,-0.40,48.0,CL075,PR001,AG07,facturation,agence_physique,Bug_Mise_A_Jour_App,0.76
+REC2026-0192,2026-08-16,Impossible de valider mon identité sur l'application bancaire.,ouverte,haute,-0.84,,CL076,PR005,AG08,facturation,application_mobile,Bug_Mise_A_Jour_App,0.90
+REC2026-0193,2026-08-17,Lenteur réseau constatée pendant le téléchargement de fichiers.,en_cours,moyenne,-0.49,,CL077,PR001,AG09,panne_reseau,application_mobile,Surcharge_Antenne_Relais,0.82
+REC2026-0194,2026-08-17,Le solde s'est vidé suite à un bug de mise à jour système.,ouverte,critique,-0.94,,CL078,PR003,AG10,facturation,agence_physique,Bug_Mise_A_Jour_App,0.97
+REC2026-0195,2026-08-18,Erreur de calcul des frais lors des retraits inter-opérateurs.,resolue,basse,-0.18,3.2,CL079,PR002,AG11,facturation,chatbot,Bug_Mise_A_Jour_App,0.82
+REC2026-0196,2026-08-18,L'antenne réseau locale est déconnectée pour maintenance prolongée.,ouverte,critique,-0.91,,CL080,PR001,AG12,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.94
+REC2026-0197,2026-08-19,Problème de réception des alertes SMS d'activité de compte.,en_cours,basse,-0.30,,CL081,PR005,AG13,facturation,application_mobile,Bug_Mise_A_Jour_App,0.78
+REC2026-0198,2026-08-19,Le transfert d'argent a été envoyé deux fois par le système.,ouverte,haute,-0.86,,CL082,PR002,AG14,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.91
+REC2026-0199,2026-08-20,Déconnexion automatique de l'application toutes les deux minutes.,resolue,basse,-0.15,1.2,CL083,PR002,AG15,mobile_money,application_mobile,Bug_Mise_A_Jour_App,0.83
+REC2026-0200,2026-08-20,Panne totale de réseau data affectant l'ensemble du quartier Medina.,ouverte,critique,-0.98,,CL084,PR001,AG16,panne_reseau,agence_physique,Surcharge_Antenne_Relais,0.99
