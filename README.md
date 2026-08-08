@@ -96,7 +96,7 @@ docker compose ps
 
 ## Plugins activés
 
-- **APOC** : procédures étendues (import avancé, manipulation de graphe).
+- **APOC** : procédures étendues (import avancé, manipulation de graphe.).
 - **Graph Data Science (GDS)** : algorithmes de graphe (similarité, PageRank, détection de communautés) — utile pour enrichir la relation `SIMILAIRE_A` entre réclamations via des embeddings ou du clustering.
 
 ---
